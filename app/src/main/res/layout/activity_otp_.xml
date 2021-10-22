@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.OTP_Activity">
+    <EditText
+        android:id="@+id/edtnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_shape"
+        android:textSize="20dp"
+        android:hint="Enter Your Number"/>
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:padding="10dp"
+        android:background="@drawable/edit_shape"
+        android:textSize="20dp"
+        android:hint="Enter Your Otp"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate OTP"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+</LinearLayout>

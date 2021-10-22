@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.myapplication.Activity.Newstudent_Activity">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:id="@+id/studentform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Form"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:textSize="25dp"/>
+        <EditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/s_name"
+            android:padding="7dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_shape"
+            android:hint="Enter Your Name"
+            android:textSize="15dp"/>
+
+        <EditText
+            android:id="@+id/s_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:drawableLeft="@drawable/course"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_shape"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Course"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/s_semester"
+            android:drawableLeft="@drawable/semester"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Semester"
+            android:background="@drawable/edit_shape"
+            android:padding="7dp"
+            android:textSize="17dp"/>
+        <EditText
+            android:id="@+id/s_fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Fees"
+            android:drawableLeft="@drawable/list"
+            android:layout_marginLeft="10dp"
+            android:padding="7dp"
+            android:inputType="number"
+            android:background="@drawable/edit_shape"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/s_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Date"
+            android:textSize="15dp"
+            android:background="@drawable/edit_shape"
+            android:padding="7dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/date"
+            android:layout_marginTop="20dp"
+            android:editable="false"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <EditText
+            android:id="@+id/s_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/description"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:hint="Enter Your Description"
+            android:background="@drawable/edit_shape"
+            android:inputType="textMultiLine"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:padding="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="150dp"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

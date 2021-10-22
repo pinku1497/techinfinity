@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.NewBatchActivity">
+<EditText
+    android:padding="15dp"
+    android:layout_marginTop="30dp"
+    android:hint="Batch Name"
+    android:id="@+id/batch_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/batch_name"
+        android:padding="15dp"
+        android:hint="Batch Location"
+        android:id="@+id/batch_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:textColor="@color/Bluecolor"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/batch_location"
+        android:padding="15dp"
+        android:background="@color/orange"
+        android:hint="Batch Location"
+        android:id="@+id/batch_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+</RelativeLayout>
